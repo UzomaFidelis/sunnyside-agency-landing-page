@@ -1,0 +1,26 @@
+@mixin fonts {
+  @font-face {
+    font-family: Barlow;
+    src: url("../../fonts/Barlow-SemiBold.ttf");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: Fraunces;
+    src: url("../../fonts/Fraunces_9pt-Bold.ttf");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Fraunces;
+    src: url("../../fonts/Fraunces_9pt-Black.ttf");
+    font-weight: 900;
+  }
+}
+@mixin fraunces-font {
+  font-family: Fraunces, serif;
+}
+@mixin no-bg-repeat {
+  background-repeat: no-repeat;
+}
+@mixin full-bg {
+  background-size: 100% 100%;
+}
