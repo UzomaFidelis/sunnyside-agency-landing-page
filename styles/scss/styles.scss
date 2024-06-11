@@ -15,6 +15,7 @@ body {
   background-position: left bottom;
   padding: 2rem 1.5rem;
   height: 30rem;
+  background-color: rgba(190, 190, 190);
 
   &__navbar {
     display: flex;
@@ -146,6 +147,9 @@ body {
       text-align: center;
       padding: 2.3rem 1.6rem;
     }
+    &--img {
+      background-color: rgba(190, 190, 190);
+    }
     &--imgtext {
       text-align: center;
       padding: 4rem 0.9rem 2rem;
@@ -255,6 +259,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: repeat(2, calc(100vw / 2));
+  background-color: rgb(190, 190, 190);
   &__item {
     font-size: 0;
     @include mxns.no-bg-repeat;

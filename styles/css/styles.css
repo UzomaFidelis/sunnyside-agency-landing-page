@@ -25,6 +25,7 @@ body {
   background-position: left bottom;
   padding: 2rem 1.5rem;
   height: 30rem;
+  background-color: rgb(190, 190, 190);
 }
 .header__navbar {
   display: flex;
@@ -150,6 +151,9 @@ body {
   text-align: center;
   padding: 2.3rem 1.6rem;
 }
+.info__grid-item--img {
+  background-color: rgb(190, 190, 190);
+}
 .info__grid-item--imgtext {
   text-align: center;
   padding: 4rem 0.9rem 2rem;
@@ -255,6 +259,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: repeat(2, 50vw);
+  background-color: rgb(190, 190, 190);
 }
 .img-grid__item {
   font-size: 0;
