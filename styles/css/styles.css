@@ -18,6 +18,19 @@ body {
   margin: 0;
 }
 
+.skip-to-content {
+  background: #e77e23;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.6rem;
+  position: absolute;
+  transition: top 300ms;
+  top: -100px;
+}
+.skip-to-content:focus {
+  top: 20px;
+}
+
 .header {
   background-image: url(../../images/mobile/image-header.jpg);
   background-repeat: no-repeat;
@@ -26,6 +39,7 @@ body {
   padding: 2rem 1.5rem;
   height: 30rem;
   background-color: rgb(190, 190, 190);
+  position: relative;
 }
 .header__navbar {
   display: flex;
