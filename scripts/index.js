@@ -34,5 +34,18 @@ function navShowOnLg() {
   }
 }
 
+function closeNavOnOutsideClick(e) {
+  if (
+    window.getComputedStyle(navMenu).getPropertyValue("visibility") ==
+      "visible" &&
+    !hamburgerBtn.contains(e.target) &&
+    !navMenu.contains(e.target)
+  ) {
+    console.log("hiding navbar");
+    hideNav();
+  }
+}
+
 hamburgerBtn.onclick = toggleMenu;
+document.onmousedown = closeNavOnOutsideClick;
 window.onresize = navShowOnLg;
