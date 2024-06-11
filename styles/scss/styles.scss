@@ -302,6 +302,9 @@ body {
     text-decoration: none;
     transition: color 300ms ease;
     color: vars.$dark-moderate-cyan;
+    &:visited {
+      color: vars.$dark-moderate-cyan;
+    }
     &:hover {
       color: white;
     }

@@ -304,6 +304,9 @@ body {
   transition: color 300ms ease;
   color: hsl(168, 34%, 41%);
 }
+.footer__link:visited {
+  color: hsl(168, 34%, 41%);
+}
 .footer__link:hover {
   color: white;
 }
