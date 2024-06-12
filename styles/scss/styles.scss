@@ -159,7 +159,6 @@ body {
     &--text {
       text-align: center;
       padding: 2.3rem 1.6rem;
-      background-color: rgba(vars.$yellow, 0.1);
     }
     &--img {
       background-color: rgba(190, 190, 190);
@@ -224,7 +223,6 @@ body {
   }
 }
 .testimonials {
-  background-color: rgba(vars.$yellow, 0.1);
   text-align: center;
   padding-top: 3.2rem;
   &__heading {
